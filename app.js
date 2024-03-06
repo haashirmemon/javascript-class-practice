@@ -98,7 +98,7 @@
 
 
 // function greetuser (  username , lastname ,age) {
-// console.log("hello ,"+ username,+lastname,+age)
+// console.log("hello ,"+ username, + lastname, + age)
 
 // }
 
@@ -125,7 +125,7 @@
 
 
 
-var HEAD = document.querySelector(".HEAD");
+// var HEAD = document.querySelector(".HEAD");
 // HEAD.innerHTML = "change through js"
 
 // function changetext(head) {
@@ -142,11 +142,106 @@ var HEAD = document.querySelector(".HEAD");
 
 // }
 
-var username="haashir"
-var lastname="shakeel"
-var age="18"
+// var username="haashir"
+// var lastname="shakeel"
+// var age="18"
 
-console.log(`my name is ${firstname} ${lastname} and my age is ${age}`)
+// console.log(`my name is ${firstname} ${lastname} and my age is ${age}`)
 
+// function greetuser() {
+//     var input1 = "haashir" 
+//     var input2 = "haashir"
+//     var input3 = "haashir"
+//     var input4 = "haashir"
+
+//     console.log("input1")
+//      console.log("input2") 
+//      console.log("input3")
+//       console.log("input4") ;
+    
+// }
+
+
+// greetuser();
+
+
+var head = document.querySelector(".HEAD")
+var paragraph = document.querySelector("#para")
+
+
+
+// console.log(head.innerHTML)
+// console.log(paragraph.innerHTML)
+
+// function changetext() {
+
+//     var head = document.querySelector(".HEAD")
+//     var paragraph = document.querySelector("#para")
+    
+
+//     head.innerHTML = "change through js"
+// paragraph.innerHTML = "lorem ipsum"
+// }
+
+// changetext()
+
+
+// var input = document.querySelector("input")
+// console.log(input.value)
+
+// function getvalue () {
+
+//     console.log(input.value)
+//     input.value =""
+// }
+
+// getvalue()
+
+var input1 =document.querySelector("#input1")
+var input2 =document.querySelector("#input2")
+var input3 =document.querySelector("#input3")
+var input4 =document.querySelector("#input4")
+var studenttotal = document.querySelector("#totalmarks")
+var grade =document.querySelector("#grade")
+var percentage =document.querySelector("#percentage")
+
+// console.log("+input1.value"+  "+input2.value" +"+input3value" +"+input4value");
+
+
+function findmarks() {
+console.log(input1.value);
+console.log(input2.value);
+console.log(input3.value);
+console.log(input4.value);
+    
+var totalmarks = 400
+
+var obtainedmarks = +input1.value + +input2.value + +input3.value + +input4.value
+console.log("obtainedmarks===>", obtainedmarks);
+
+studenttotal.innerHTML = obtainedmarks
+var  studentpercentage =obtainedmarks/totalmarks*100
+percentage.innerHTML = studentpercentage
+
+if (studentpercentage>80) {
+    grade.innerHTML =" A+1"
+}
+
+else if(studentpercentage>70) {
+    grade.innerHTML = "A"
+    
+}
+else if(studentpercentage>60) {
+    grade.innerHTML = "b"
+}
+else if(studentpercentage>50){
+    grade.innerHTML ="c"
+
+}
+else{
+    grade.innerHTML = "fail"
+}
+
+}
 
 
