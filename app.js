@@ -197,51 +197,65 @@ var paragraph = document.querySelector("#para")
 
 // getvalue()
 
-var input1 =document.querySelector("#input1")
-var input2 =document.querySelector("#input2")
-var input3 =document.querySelector("#input3")
-var input4 =document.querySelector("#input4")
-var studenttotal = document.querySelector("#totalmarks")
-var grade =document.querySelector("#grade")
-var percentage =document.querySelector("#percentage")
+// var input1 =document.querySelector("#input1")
+// var input2 =document.querySelector("#input2")
+// var input3 =document.querySelector("#input3")
+// var input4 =document.querySelector("#input4")
+// var studenttotal = document.querySelector("#totalmarks")
+// var grade =document.querySelector("#grade")
+// var percentage =document.querySelector("#percentage")
 
 // console.log("+input1.value"+  "+input2.value" +"+input3value" +"+input4value");
 
 
-function findmarks() {
-console.log(input1.value);
-console.log(input2.value);
-console.log(input3.value);
-console.log(input4.value);
-    
-var totalmarks = 400
+// // 
 
-var obtainedmarks = +input1.value + +input2.value + +input3.value + +input4.value
-console.log("obtainedmarks===>", obtainedmarks);
+// let cities =
+// [   "swat" , 'gilgit'  , "but gram " ," shangla"
+// [" mountain1" ,"mountain2" ,"mountain3" ,"mountain4"]]
+// console.log(cities)
 
-studenttotal.innerHTML = obtainedmarks
-var  studentpercentage =obtainedmarks/totalmarks*100
-percentage.innerHTML = studentpercentage
+// const fruit = ['banana' , 'mango' ,'orange'  , 'grapes' ,"gvava" , 'nashpati']
 
-if (studentpercentage>80) {
-    grade.innerHTML =" A+1"
-}
+// fruit.splice(1 ,2,'stawberry' )
+// console.log(fruit);
 
-else if(studentpercentage>70) {
-    grade.innerHTML = "A"
-    
-}
-else if(studentpercentage>60) {
-    grade.innerHTML = "b"
-}
-else if(studentpercentage>50){
-    grade.innerHTML ="c"
+// console.log{"hello arrays"}
 
-}
-else{
-    grade.innerHTML = "fail"
-}
+// let haashir ='username'
+// let shakeel= 'memon'
 
-}
+// console.log('' + 'memon');
+
+// var username = 'haashir'
+// var username = 'usman'
+// username='ammar'
+// console.log(username);
+
+// 
+// 
+
+// let cities = ['karachi' ,' lahore', 'faislabad','hydrabad','mirpurkhaas',"sukkur",'islamabad' ,"sialkot" ,'larkana', "rawalpindi",  ['fb area',"shoemarket","ranchorline" ,"macharcolony","garden"]]
+
+// console.log(`${cities[0]}${cities[7]} `);
+
+// user [2]= 'haashir'
+// user [1]= 'shakeel'
+// console.log(user[2]);
+// const user = ['abdullah' , 'usman' , 'haider'];
+// console.log(`${user[0]} ${user[2]}`);
+
+// user[0] = 'ammar';
+// user[4] = 'ali'
+// console.log(user[3])
+// const user = [ ]
+// user[0] = +prompt('enter your name')
+// user[1] = +prompt('enter your name')
+// user[2] = +prompt('enter your name')
+// console.log(user[0]);
+const haashir =['apple','banana']
+
+
+
 
 
