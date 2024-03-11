@@ -253,7 +253,38 @@ var paragraph = document.querySelector("#para")
 // user[1] = +prompt('enter your name')
 // user[2] = +prompt('enter your name')
 // console.log(user[0]);
-const haashir =['apple','banana']
+
+
+// const fruit = 'stawberry'
+// const fruits = ['banana','orange','mango',]
+// console.log(fruits);
+// fruits.push('watermelon')
+// fruits.pop ()
+// fruits.unshift('watermelon')
+// fruits.shift()
+// fruits.splice('shru kahan sai karna hai','kahan sai delete karna hai','uski jaga kiya rakhna hai')
+// fruits.splice('banana','mango','orange')
+//  let numbers ='1,2,3,4,5'
+// // numbers.slice(3)
+// // const newarr =numbers.slice()
+// let arr =numbers.split('')
+// const names= ['muhammad ','haashir',' shakeel']
+// const str = names.join('')
+// fruits[3]
+// console.log(str);
+
+
+// fruits.splice(2 , 1 , 'strawberry' , 'watermelon' , 'melon' , 'mangoes' , 'guava' , 'nashpati' , 'grapes' , 'anaaar' , 'kinno');
+// fruits.splice(1 , 3);
+// fruits.splice(6 , 2 , 'banana');
+// fruits[3].pop[2]
+// console.log(fruits)
+
+// let condition =false |10 !='10'|| 10!=='10' ;
+// console.log(condition);
+let num = 34
+ num = 20
+console.log(num);
 
 
 
