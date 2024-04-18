@@ -494,8 +494,46 @@
 //     alert('Please add proper name')
 // } 
 
-var haashir = 'aksar larkon ka character buhot dhila hota hai '
+// var haashir = +prompt('enter your value')
+// var suleman = 46
+// if (haashir < 45) {
+//     // console.log();
+//     document.write("haashir")
+// }
+// else {
+//     console.log("suleman");
+// }
 
-for (let i = 0; i < haashir.length; i++) {
-console.log(haashir.charAt(0));
+var age = +prompt('enter your age')
+if (age.valueOf =  100) {
+    document.write('aap kai liyai sochtai hain')
+} else{
+    document.write('ab aap budhai hogai aap retair ho meri company sai');
+
 }
+
+
+//     var age = +prompt("write your age")
+// if (age >= 18){
+//     console.log("admission hogaya");
+//     document.write("admission hogaya")
+// }
+// else{
+//    console.log("admission nhi hua") 
+//    document.write("<h1>admission nhi hogaya</h1>")
+// }
+// let a = 5;
+// let b = 10;
+
+// if (a < b) {
+//     console.log("a is less than b");
+// }
+
+// if (b > a) {
+//     console.log("b is greater than a");
+// }
+
+
+// for (let i = 0; i < haashir.length; i++) {
+// console.log(haashir.charAt(0));
+// }
