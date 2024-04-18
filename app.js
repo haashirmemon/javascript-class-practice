@@ -465,3 +465,37 @@
 // // alert('welcome to', cities[3])
 // // cities.splice(0, 1)
 // console.log(cities);
+// let a1=['haashir','shakeel']
+// let a2=['qasim','arif']
+// let a3=['hasan','faisal']
+// console.log(a1,a2,a3);
+// a1.concat(a2,a3)
+
+
+
+
+
+// array types
+// var arr = ["karachi","lahore"]
+// console.log(arr);
+
+// var haashir = prompt('suleman ka bhai hai')
+// // var haashirl=
+// // console.log(haashir.length);
+// if (haashir.length < 50  && haashir.length >10) {
+//     console.log('ok');
+// } else {
+//     alert('please add proper name ')
+// }
+
+// var username = prompt('Add your name')
+// if (username.length > 3 && username.length < 12) {
+//     // console.log('ok')
+//     alert('Please add proper name')
+// } 
+
+var haashir = 'aksar larkon ka character buhot dhila hota hai '
+
+for (let i = 0; i < haashir.length; i++) {
+console.log(haashir.charAt(0));
+}
