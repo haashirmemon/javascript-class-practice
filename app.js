@@ -504,13 +504,13 @@
 //     console.log("suleman");
 // }
 
-var age = +prompt('enter your age')
-if (age.valueOf =  100) {
-    document.write('aap kai liyai sochtai hain')
-} else{
-    document.write('ab aap budhai hogai aap retair ho meri company sai');
+// var age = +prompt('enter your age')
+// if (age.valueOf =  100) {
+//     document.write('aap kai liyai sochtai hain')
+// } else{
+//     document.write('ab aap budhai hogai aap retair ho meri company sai');
 
-}
+// }
 
 
 //     var age = +prompt("write your age")
@@ -537,3 +537,10 @@ if (age.valueOf =  100) {
 // for (let i = 0; i < haashir.length; i++) {
 // console.log(haashir.charAt(0));
 // }
+
+// var now = new Date()
+// console.log("milli seconds=>",now.getTime());
+// // document.write("seconds=>",now.getTime()/1000/60)
+// document.write("seconds==>",now.getSeconds())
+var random = Math.random()*100
+console.log(random);
